@@ -11,6 +11,7 @@ import (
 func main() {
 	fmt.Println("Part01 test:", part01(file.LoadStrings("test.txt")))
 	fmt.Println("Part01:", part01(file.LoadStrings("part01.txt")))
+	fmt.Println("Part02 test:", part02(file.LoadStrings("test2")))
 	fmt.Println("Part02:", part02(file.LoadStrings("part01.txt")))
 }
 
